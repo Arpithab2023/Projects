@@ -1,0 +1,126 @@
+@media screen and (max-width: 600px) {
+    /* Styles for small screens go here */
+}
+
+@media only screen and (min-width: 600px) {
+    /* Tablet styles */
+    section {
+        padding: 40px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    /* Desktop styles */
+    section {
+        padding: 40px;
+    }
+}
+
+body {
+            
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+    box-sizing: border-box;
+    height: 100%;
+    
+
+}
+.nextcon {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #ffff99 0%, #ff99cc 100%);
+}
+
+.left-side-con, .right-side-con {
+    flex: 1;
+    padding: 0px;
+}
+
+.leftcon{
+    display: flex;
+}
+
+.left-left, .left-right{
+    flex:1;
+}
+.left1, .left2{
+    flex: 1;
+}
+.image1{
+    padding: 10vh 2vh 1vh 15vh;
+    height: 30vh;
+    width: 72%;
+}
+.image2{
+    padding: 0vh 3vh 0vh 15vh;
+    height: 30vh;
+    width: 72%;
+}
+.image3{
+    padding: 10vh 0vh 1vh 6vh;
+    height: 61.2vh;
+    width: 74%;
+}
+
+.rightform{
+    padding: auto;
+    background-color:rgb(238, 112, 112) ;
+    margin: 25% 30% 10% 2%;
+}
+.heading{
+    padding: 5vh 0vh 0vh 5vh;
+    font-family: Calibri;
+    font-style: normal;
+}
+
+.h3{
+    padding: 0vh 0vh 0vh 5vh;
+    font-size: 5vh;
+    font-family: Calibri, sans-serif;
+    letter-spacing: 1px;
+}
+
+.icon{
+    height: 20px;
+    width: 30px;
+}
+
+
+
+
+
+/* Resetting default styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensuring full width */
+.container {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Optional: Add some space around the container */
+body {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 150px;
+  margin-right: 150px;
+
+  transform: scale(0.8,0.8);
+  zoom: 0.8;
+  zoom:80%;
+}
+
+/* Rest of your existing styles */
+/* ... */
+
+
+
+
